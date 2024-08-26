@@ -1,0 +1,411 @@
+.wrapper{
+	width:100%;
+	height:auto;
+}
+.header{
+	background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("../img/mandu4.jpg");
+	background-size:100%;
+}
+.nav1{
+	background-color:#000000;
+	height:auto;
+	padding:20px;
+    
+	width:100%;
+	position:fixed;
+	top: 30px;
+	z-index:5;
+}
+
+.navheader{
+	color:white;
+	font-size:32px;
+	margin-left: -11px;
+	font-weight:800;
+	word-spacing:1px;
+	font-family:system-ui;
+	margin-top:0;
+}
+.navlink,.navlink:visited{
+	color:white;
+	margin-top:2px;
+	transition:color 0.1s;
+	font-size:12px;
+}
+.active,.active:visited{
+	color:white;
+	border:2px solid #ff0000b5;
+	background-image:linear-gradient(rgb(0,0,0,1),rgb(0,0,0,1),rgb(230,0,0,0.2));
+	border-width:0 0 2px 0px;
+	margin-top:2px;
+	transition:color 0.1s;
+	font-size:12px;
+}
+.navlink:hover,#footlink:hover{
+	color:red;
+    background:transparent;
+}
+.active:hover{
+	color:red;
+    background:transparent;
+	background-image:linear-gradient(rgb(0,0,0,1),rgb(0,0,0,1),rgb(230,0,0,0.15));
+}
+.bg-img{
+	height:400px;
+	width:100%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.bg-img p{
+	padding-top:60px;
+	font-size:35px;
+	color:#fff;
+	font-weight:700;
+	font-family:;
+	text-align:center;
+	vertical-align:center;
+	line-height:28px;
+}
+.bg-img p small{
+	font-size:17px;
+	font-weight:400;
+}
+#mainlink{
+	color:white;
+	font-weight:500;
+	font-size:19px;
+}
+#mainlink:hover{
+	color:#f50537;
+	text-decoration:none;
+	
+}
+#ertigacar{
+     border:8px solid #aaaaaa67;
+	 border-radius:5px;
+	 margin-top:60px;
+	 }
+.imi{
+ transition: transform 0s ease 0s, all 2s ease 0s;
+}	
+	 
+.imi:hover{
+	transform:scale(1.5);
+    
+}
+#imgcity{
+		 border-radius:6px 6px 0 0;
+		 margin-left:10px;
+		 transition: transform 0s ease 0s, all 2s ease 0s;
+	 }
+#imgcity:hover{
+transform:scale(1.07);
+}
+	
+	
+	
+#redbox{
+		background-color:#f50537;
+		border-radius:35px;
+		font-size:16px;
+		word-wrap:nowrap;
+		color:white;
+		padding:15px 40px;
+		text-align:center;
+		font-family: system-ui;
+		line-height: 4;
+		font-weight:600;
+		transition:background-color 1s;
+}
+#redbox:hover{
+	 text-decoration: none;
+	 background-color:#037ef3;
+}
+	
+#about{
+		margin-bottom:40px;
+}
+#abt{
+		padding-top:30px;
+		font-size:40px;
+}
+.row3{
+		height: auto;
+        width: 100%;
+        padding: 100px 0px 140px 10px;
+		margin-bottom:150px;
+}
+.row3 h2,.row4 h2{
+	text-align:center;
+    margin-bottom:50px;
+	font-size:20px;
+	
+	
+}
+.carpara{
+	margin-top: 50px;
+	font-size:20px;
+	color:#777;
+	text-align:justify;
+}
+.redlink{
+	color:black;
+	font-size:25px;
+	transition:color .6s;
+}
+.redlink:hover{
+	color:#f50537;
+	text-decoration:none;
+	
+}
+.row4{
+	height:auto;
+	font-weight:600;
+	font-size:15px;
+	padding:120px 0;
+}
+.row4 h3{
+	font-weight:600;
+	padding-left:20px;
+}
+.row4 p{
+	padding-left:20px;
+	font-size:17px;
+	font-weight:500;
+	line-height:20px;
+}
+
+.call{
+	height:auto;
+	width:90%;
+	margin:0px 50px 70px 50px;
+	border-radius:10px;
+	padding:120px 50px 180px 20px;
+	background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url('../img/sunset.jpg');
+	background-size:100%;
+	color:white;
+}
+.call .col-md-9{
+	padding:10px;
+}
+#phone{
+	font-size:30px;
+	color:#fff;
+}
+#phone span{
+	font-family: "Londrina Outline";
+	font-size: 37px;
+    letter-spacing: 3px;
+    margin-left:25px;
+    
+    border-bottom: 1px solid transparent;
+}
+#callpara{
+	color:#707070;
+	font-size:19px;
+	font-weight:500;
+}
+.call .col-md-3{
+	padding-left:20px;
+}
+.call .col-md-3 #redbox{
+	padding:10px 50px;
+}
+
+.foot{
+	background-color:black;
+	color:#777;
+	height:auto;
+	width:100%;
+	padding:5px 0 10px 0;
+	line-height:22px;
+	
+}
+.fl{
+	float:left;
+}
+.boxlink{
+	background-color:#f50537;
+	height:40px;
+	width:40px;
+	float:left;
+	list-style:none;
+	border-radius:20px;
+	margin-right:60px;
+	margin-left:-40px;
+}
+.boxlink:hover{
+    background-color:#037ef3;
+	
+}	
+.footheading{
+	color:white;
+	font-size:20px;
+	font-weight:600;
+	margin:50px 0;
+	
+}
+.plc{
+	list-style:none;
+	font-size:15px;
+	margin-left:-40px;
+	color:#777;
+	letter-spacing:1px;
+	line-height:25px;
+}
+#fximg1{
+	position:fixed;
+	top:90%;
+	left:2%;
+}
+#fximg2{
+	position:fixed;
+	top:90%;
+	left:91%;
+}
+#footlink{
+	color:#777;
+	transition:color 0.1s, ease-in-out 0.3s;
+	line-height:35px;
+	font-size:15px;
+	margin-bottom:5px;
+	
+}
+#footlink:hover{
+	color:#f50537;
+	text-decoration:none;
+}
+.plc1{
+	list-style:none;
+	font-size:15px;
+	margin:40px 0 50px 0;
+	color:#888;
+}
+/*Cars page css*/
+.row1{
+	margin:50px 0;
+	line-height:38px;
+	font-size:18px;
+}
+.row31{
+	height: auto;
+    width: 100%;
+    padding: 100px 0px 140px 180px;
+	margin-bottom:150px;
+}
+.row31 .row1{
+	margin:0 25px;
+}
+.row31 h2{
+	text-align:center;
+    margin-bottom:50px;
+	font-size:20px;
+	
+	
+}
+/*package page css*/
+
+.row5{
+	width:100%;
+	height:480px;
+	font-weight:600;
+	font-size:15px;
+	padding:30px 0 40px 0;
+	margin:50px 0px;
+}
+.row5 h3{
+	font-weight:600;
+	padding-left:20px;
+}
+.row5 p{
+	padding-left:20px;
+	font-size:17px;
+	font-weight:500;
+	line-height:20px;
+}
+.row6{
+	height:auto;
+	font-weight:600;
+	font-size:15px;
+	padding:120px 0 220px 0;
+	
+}
+.row6 h3{
+	font-weight:600;
+	padding-left:20px;
+}
+.row6 p{
+	padding-left:20px;
+	font-size:17px;
+	font-weight:500;
+	line-height:20px;
+}
+
+/*terms page css*/
+.boleroback{
+	height:auto;
+	width:100%;
+	margin:250px 20px 0 0px;
+	padding-right:10px;
+    border:8px solid #dddddd89;
+	border-radius:7px;
+}
+/*booking page css*/
+#inp{
+	border:solid 1px #dddddd89;
+	background-color:#eeeeee;
+	border-radius:7px;
+	margin:10px 20px;
+	padding:0 15px;
+	width:95%;
+	height:55px;
+}
+#inp:hover{
+	box-shadow:0 0 9px #fde;
+
+}
+#btnip{
+	border:solid 1px red;
+	border-radius:7px;
+	margin:10px 20px;
+	padding:0 15px;
+	width:95%;
+	height:55px;
+}
+#inp:hover{
+	box-shadow:0 0 9px #fde;
+
+}
+.cent{
+	font-size:24px;
+	font-weight:500;
+	text-align:center;
+	padding:90px 0px 40px 0;
+}
+.rom{
+	padding-top:50px;
+}
+.book1{
+	height:auto;
+	width:30%;
+}
+.book2{
+	height:auto;
+	width:80%;
+	margin:100px 0px -50px 50px;
+}
+.book2 h4{
+	font-weight:500;
+}
+.book2 p,.book2 a{
+	color:#707070;
+	font-size:15px;
+	text-align:justify;
+}
+.book2 a:hover{
+	color:red;
+	text-decoration:none;
+}
